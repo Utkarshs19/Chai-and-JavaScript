@@ -1,13 +1,9 @@
-const obj2={
-//     5:"a",
-//     4:"b"
-// }
+let myDate=new Date()
 
-// const obj4=Object.assign({},obj1,obj2)
+// console.log(myDate.toString())
 
-// console.log(obj4);
+// console.log(myDate.toDateString());
 
+// console.log(myDate.toISOString());
 
-// const obj3={...obj1,...obj2}
-
-// console.log(obj3);
+// console.log(myDate.toJSON())
