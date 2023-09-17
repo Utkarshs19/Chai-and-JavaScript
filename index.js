@@ -74,13 +74,18 @@
 
 // +++++++++++ NULLISH Coalescing Operator +++++++++++++++++++++++++++
 
-val1=10??15
+// val1=10??15
 
-val1=null??undefined
+// val1=null??undefined
 
-console.log(val1)
+// console.log(val1)
 
 // +++++++++++++++++++++Ternary Operator++++++++++++++++++++++++++++++
 
-1==1?console.log("true"):console.log("false");
+// 1==1?console.log("true"):console.log("false");
 
+// +++++++++++++++++++++++++IIFE+++++++++++++++++++++++++++++++++++++
+
+( (name)=>{
+    console.log(`${name}`)
+})("Utkarsh");

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chai and JavaScript</title>
+</head>
+<body style="background-color: rgb(0, 0, 0); color: white;">
+        <div class="Parent">
+            <div class="day">Monday</div>
+            <div class="day">Tuesday</div>
+            <div class="day">Wednesday</div>
+            <div class="day">Thursday</div>
+            <div class="day">Friday</div>
+        </div>
+        
+</body>
+    
+<script>
+   const parent= document.querySelector('.Parent');
+    // console.log(parent);
+    // console.log(parent.children);
+   
+    // for(let i=0;i<parent.children.length;i++)
+    // {
+    //     console.log(parent.children[i].textContent);
+    // }
+
+    parent.children[0].style.color="orange"
+    
+    parent.children[0].style.backgroundColor="orange"
+
+    // console.log(parent.firstElementChild)
+
+
+    const child=document.querySelector('.day')
+
+    // console.log(child.parentElement)
+    // console.log(child.nextElementSibling)
+    
+
+    
+    console.log("nodes :",parent.childNodes)
+ 
+</script>
+
+</html>
